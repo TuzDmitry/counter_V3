@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "a",
+      "author": "eric"
+    },
+    {
+      "id": 2,
+      "title": "b",
+      "author": "sten"
+    },
+    {
+      "id": 3,
+      "title": "a",
+      "author": "kenny"
+    },
+    {
+      "id": 4,
+      "title": "d",
+      "author": "kail"
+    },
+    {
+      "id": 6,
+      "title": "5",
+      "author": "3242"
+    }
+  ],
+  "lessons": [
+    {
+      "id": 1,
+      "title": "fdsfds"
+    },
+    {
+      "id": 2,
+      "title": "fdsfds"
+    }
+  ],
+  "counter": {
+    "value": "3",
+    "maxValue": "7"
+  },
+  "counter-settings": {
+    maxValue: number
+    "startValue": "3",
+    "maxValue": "7"
+  }
+}
