@@ -2,31 +2,47 @@ import axios from 'axios';
 
 const instanse = axios.create(
     {
-        baseURL: process.env.API_BASE_URL
+        baseURL: process.env.REACT_APP_API_BASE_URL
     }
 )
 
 console.log("API_BASE_URL:" + process.env.REACT_APP_API_BASE_URL)
 
 
-type CounterSettingsType = {
+export type CounterSettingsType = {
     maxValue: number
     startValue: number
-
+    memoryValue: number
 }
 
-const APIservice = {
+export const APIservice = {
     getCounterSetting() {
         return instanse.get<CounterSettingsType>('/counter-settings').then(res=>res.data)
     },
-    updateCounterSetting() {
+    updateCounterStartValue(val:number) {
+        return instanse.patch<{startValue: number}>(`/counter-settings`,
+            {
+                "startValue": val
+            })
+            .then(res=>
+            {
+                debugger
+                return res.data})
     },
-    // updateCounterSetting() {
-    // },
-    //
-    // updateCounterSetting() {
-    // },
-    // updateCounterSetting() {
-    // },
+    updateCounterMaxValue(val:number) {
+        return instanse.patch<{maxValue: number}>(`/counter-settings`,
+            {
+                "maxValue": val
+            })
+            .then(res=>res.data)
+    },
+    updateCounterMemoryValue(val:number) {
+        return instanse.patch<{memoryValue: number}>(`/counter-settings`,
+            {
+                "memoryValue": val
+            })
+            .then(res=>res.data)
+    },
+
 
 }

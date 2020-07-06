@@ -1,38 +1,24 @@
 {
   "users": [
     {
-      "id": 1,
-      "title": "a",
-      "author": "eric"
+      "title": "putput",
+      "author": "Put",
+      "id": 1
     },
     {
       "id": 2,
-      "title": "b",
-      "author": "sten"
+      "title": "hey",
+      "author": "Dima"
     },
     {
-      "id": 3,
-      "title": "a",
-      "author": "kenny"
-    },
-    {
-      "id": 4,
-      "title": "d",
-      "author": "kail"
-    },
-    {
-      "id": 6,
-      "title": "5",
-      "author": "3242"
+      "title": "helllllloooo",
+      "author": "Tuz",
+      "id": 3
     }
   ],
   "lessons": [
     {
       "id": 1,
-      "title": "fdsfds"
-    },
-    {
-      "id": 2,
       "title": "fdsfds"
     }
   ],
@@ -41,8 +27,8 @@
     "maxValue": "7"
   },
   "counter-settings": {
-    maxValue: number
-    "startValue": "3",
-    "maxValue": "7"
+    "memoryValue": 4,
+    "startValue": 3,
+    "maxValue": 7
   }
 }
