@@ -1,20 +1,33 @@
-import React from 'react';
+import React, {ChangeEvent} from 'react';
 
-const ComponentInstaller =()=> {
-        return (
-            <div className="containerValue">
 
-                <div>
-                    {/*{this.props.nameInstaller}*/}
-                </div>
-                <input type="number"
-                       // value={this.props.value}
-                       value={'1'}
-                       // onChange={this.props.onChangeFunc}
-                       // className={this.props.classRed}
-                />
+type OwnPropsType = {
+    nameInstaller: string
+    value: number
+    onChangeFunc: (val:number) => void
+}
+
+
+const ComponentInstaller = (props: OwnPropsType) => {
+    let a = (e: ChangeEvent<HTMLInputElement>) => {
+            debugger
+           let val=parseInt(e.currentTarget.value)
+        props.onChangeFunc(val)
+    }
+
+    return (
+        <div className="containerValue">
+
+            <div>
+                {props.nameInstaller}
             </div>
-        );
+            <input type="number"
+                   value={props.value}
+                   onChange={a}
+                // className={this.props.classRed}
+            />
+        </div>
+    );
 
 }
 

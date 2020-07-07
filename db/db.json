@@ -24,11 +24,11 @@
   ],
   "counter": {
     "value": "3",
-    "maxValue": "7"
+    "maxValue": "10"
   },
   "counter-settings": {
-    "memoryValue": 4,
-    "startValue": 3,
-    "maxValue": 7
+    "maxValue": 14,
+    "startValue": 7,
+    "memoryValue": 4
   }
 }
