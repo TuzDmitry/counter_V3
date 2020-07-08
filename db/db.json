@@ -27,8 +27,8 @@
     "maxValue": "10"
   },
   "counter-settings": {
-    "maxValue": 14,
-    "startValue": 7,
-    "memoryValue": 4
+    "maxValue": 12,
+    "startValue": 2,
+    "memoryValue": 2
   }
 }

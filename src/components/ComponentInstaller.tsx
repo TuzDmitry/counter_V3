@@ -5,6 +5,7 @@ type OwnPropsType = {
     nameInstaller: string
     value: number
     onChangeFunc: (val:number) => void
+    classRed:string
 }
 
 
@@ -24,7 +25,7 @@ const ComponentInstaller = (props: OwnPropsType) => {
             <input type="number"
                    value={props.value}
                    onChange={a}
-                // className={this.props.classRed}
+                className={props.classRed}
             />
         </div>
     );

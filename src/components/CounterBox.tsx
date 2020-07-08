@@ -7,7 +7,7 @@ import { GetInitialData } from "../bll/countReducer";
 
 
 const CounterBox=()=>{
-debugger
+// debugger
     // const val=useSelector<AppRootState, number>(state => state.counterReducer.maxValue)
 
     const dispatch=useDispatch();

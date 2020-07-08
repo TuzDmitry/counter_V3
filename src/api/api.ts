@@ -44,5 +44,4 @@ export const APIservice = {
             .then(res=>res.data)
     },
 
-
 }

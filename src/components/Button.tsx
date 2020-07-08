@@ -1,14 +1,21 @@
 import React from 'react';
 import style from './Button.module.css'
 
-const Button = () => {
+
+type OwnPropsType={
+    name:string
+    onClickFunc?:()=>void
+    setDisabled:boolean
+}
+
+const Button = (props:OwnPropsType) => {
     return (
         <span>
                 <button
-                    // onClick={this.props.onClickFunc}
-                    // disabled={this.props.setDisabled}
+                    onClick={props.onClickFunc}
+                    disabled={props.setDisabled}
                     className={`${style.buttonClass}`}>
-                    {/*{this.props.name}*/}
+                    {props.name}
                 </button>
             </span>
     );
