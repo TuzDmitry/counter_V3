@@ -4,13 +4,10 @@
     <list default="true" id="71fb70de-8a51-427d-bc0d-8ceda80bba8e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bll/countReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bll/countReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bll/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bll/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ComponentInstaller.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ComponentInstaller.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ControlBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ControlBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CounterBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CounterBox.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DisplayBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DisplayBlock.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +88,8 @@
       <workItem from="1592839017170" duration="2114000" />
       <workItem from="1593528432868" duration="6611000" />
       <workItem from="1594028916908" duration="37059000" />
-      <workItem from="1594200548557" duration="5154000" />
+      <workItem from="1594200548557" duration="7685000" />
+      <workItem from="1594283705742" duration="3735000" />
     </task>
     <task id="LOCAL-00001" summary="sat..noth">
       <created>1592686746958</created>
@@ -121,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594155552350</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="made disabling, validations style">
+      <created>1594214678360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594214678360</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,44 +136,45 @@
     <MESSAGE value="sat..noth" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Thunks,&#10;made Update start&amp;max Values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thunks,&#10;made Update start&amp;max Values" />
+    <MESSAGE value="made disabling, validations style" />
+    <option name="LAST_COMMIT_MESSAGE" value="made disabling, validations style" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1253" y="-133" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594046087529">
       <screen x="-1680" y="-319" width="1290" height="766" />
     </state>
     <state x="-1253" y="-133" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1475.789/-1680.-319.1290.766@-1680.-319.1290.766" timestamp="1594046087529" />
-    <state x="370" y="0" key="CommitChangelistDialog2" timestamp="1594155551541">
+    <state x="370" y="0" key="CommitChangelistDialog2" timestamp="1594214677372">
       <screen x="0" y="0" width="1475" height="789" />
     </state>
     <state x="-1356" y="-319" key="CommitChangelistDialog2/0.0.1475.789/-1680.-319.1290.766@-1680.-319.1290.766" timestamp="1594067147059" />
-    <state x="370" y="0" key="CommitChangelistDialog2/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1594155551541" />
+    <state x="370" y="0" key="CommitChangelistDialog2/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1594214677372" />
     <state x="370" y="0" key="CommitChangelistDialog2/0.0.1475.789@0.0.1475.789" timestamp="1592686774783" />
     <state x="-1177" y="-42" key="Github.ShareDialog" timestamp="1594067092018">
       <screen x="-1680" y="-319" width="1290" height="766" />
     </state>
     <state x="-1177" y="-42" key="Github.ShareDialog/0.0.1475.789/-1680.-319.1290.766@-1680.-319.1290.766" timestamp="1594067092018" />
-    <state width="1453" height="198" key="GridCell.Tab.0.bottom" timestamp="1592497572204">
+    <state width="1453" height="198" key="GridCell.Tab.0.bottom" timestamp="1594284668673">
       <screen x="0" y="0" width="1475" height="789" />
     </state>
-    <state width="1453" height="198" key="GridCell.Tab.0.bottom/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1592497572204" />
-    <state width="1453" height="198" key="GridCell.Tab.0.center" timestamp="1592497572203">
+    <state width="1453" height="198" key="GridCell.Tab.0.bottom/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1594284668673" />
+    <state width="1453" height="198" key="GridCell.Tab.0.center" timestamp="1594284668672">
       <screen x="0" y="0" width="1475" height="789" />
     </state>
-    <state width="1453" height="198" key="GridCell.Tab.0.center/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1592497572203" />
-    <state width="1453" height="198" key="GridCell.Tab.0.left" timestamp="1592497572203">
+    <state width="1453" height="198" key="GridCell.Tab.0.center/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1594284668672" />
+    <state width="1453" height="198" key="GridCell.Tab.0.left" timestamp="1594284668671">
       <screen x="0" y="0" width="1475" height="789" />
     </state>
-    <state width="1453" height="198" key="GridCell.Tab.0.left/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1592497572203" />
-    <state width="1453" height="198" key="GridCell.Tab.0.right" timestamp="1592497572204">
+    <state width="1453" height="198" key="GridCell.Tab.0.left/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1594284668671" />
+    <state width="1453" height="198" key="GridCell.Tab.0.right" timestamp="1594284668672">
       <screen x="0" y="0" width="1475" height="789" />
     </state>
-    <state width="1453" height="198" key="GridCell.Tab.0.right/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1592497572204" />
-    <state x="330" y="128" key="Vcs.Push.Dialog.v2" timestamp="1594155554018">
+    <state width="1453" height="198" key="GridCell.Tab.0.right/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1594284668672" />
+    <state x="330" y="128" key="Vcs.Push.Dialog.v2" timestamp="1594214680130">
       <screen x="0" y="0" width="1475" height="789" />
     </state>
     <state x="-1391" y="-195" key="Vcs.Push.Dialog.v2/0.0.1475.789/-1680.-319.1290.766@-1680.-319.1290.766" timestamp="1594067150957" />
-    <state x="330" y="128" key="Vcs.Push.Dialog.v2/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1594155554018" />
+    <state x="330" y="128" key="Vcs.Push.Dialog.v2/0.0.1475.789/-1680.-319.1290.766@0.0.1475.789" timestamp="1594214680130" />
     <state x="330" y="128" key="Vcs.Push.Dialog.v2/0.0.1475.789@0.0.1475.789" timestamp="1592686806131" />
     <state x="539" y="74" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1593539032166">
       <screen x="0" y="0" width="1475" height="789" />
@@ -187,33 +193,30 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/bll/countReducer.ts</url>
-          <line>85</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/api/api.ts</url>
           <line>18</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/api/api.ts</url>
           <line>21</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/api/api.ts</url>
-          <line>31</line>
-          <properties lambdaOrdinal="-1" />
+          <line>30</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/api/api.ts</url>
-          <line>38</line>
-          <properties lambdaOrdinal="-1" />
+          <line>37</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/ControlBlock.tsx</url>
+          <line>20</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

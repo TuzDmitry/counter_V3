@@ -32,7 +32,6 @@ const DisplayBlock = (props: MapStateToPropsType) => {
     let classRedForDisplay = (maxValue===memoryValue) ? "filter-red" : "";
 
 
-    debugger
 
     return (
         <div className={`display`}>

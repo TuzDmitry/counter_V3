@@ -15,7 +15,7 @@ export type CounterSettingsType = {
     memoryValue: number
 }
 
-export const APIservice = {
+export const  APIservice = {
     getCounterSetting() {
         return instanse.get<CounterSettingsType>('/counter-settings').then(res=>res.data)
     },
@@ -26,7 +26,6 @@ export const APIservice = {
             })
             .then(res=>
             {
-                debugger
                 return res.data})
     },
     updateCounterMaxValue(val:number) {
@@ -36,12 +35,20 @@ export const APIservice = {
             })
             .then(res=>res.data)
     },
-    updateCounterMemoryValue(val:number) {
-        return instanse.patch<{memoryValue: number}>(`/counter-settings`,
+    // updateCounterMemoryValue(val:number) {
+    //     return instanse.patch<{memoryValue: number}>(`/counter-settings`,
+    //         {
+    //             "memoryValue": val
+    //         })
+    //         .then(res=>res.data)
+    // },
+
+    updateCounterMemoryValue : async function (val:number) {
+        const promise =await instanse.patch<{memoryValue: number}>(`/counter-settings`,
             {
                 "memoryValue": val
-            })
-            .then(res=>res.data)
+            });
+        return promise.data
     },
 
 }
